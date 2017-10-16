@@ -35,6 +35,10 @@ GEM
       minitest (~> 5.1)
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
+    acts_as_xlsx (1.0.6)
+      activerecord (>= 2.3.9)
+      axlsx (>= 1.0.13)
+      i18n (>= 0.4.1)
     arel (6.0.4)
     axlsx (2.0.1)
       htmlentities (~> 4.3.1)
@@ -165,6 +169,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  acts_as_xlsx
   axlsx_rails
   byebug
   coffee-rails (~> 4.1.0)
